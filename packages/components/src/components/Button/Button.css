@@ -1,0 +1,71 @@
+/* Define my-button class with three variants: primary, default, ghost. */
+
+.my-button {
+  background-color: #fff;
+  border: 1px solid #d9d9d9;
+  border-radius: 2px;
+  color: rgba(0, 0, 0, 0.65);
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.5;
+  padding: 4px 15px;
+  text-align: center;
+  touch-action: manipulation;
+  user-select: none;
+  white-space: nowrap;
+}
+
+.my-button-primary {
+  background-color: #1890ff;
+  border-color: #1890ff;
+  color: #fff;
+}
+
+.my-button-primary:hover {
+  background-color: #40a9ff;
+  border-color: #40a9ff;
+  color: #fff;
+}
+
+.my-button-primary:active {
+  background-color: #096dd9;
+  border-color: #096dd9;
+  color: #fff;
+}
+
+.my-button-default {
+  background-color: #fff;
+  border-color: #d9d9d9;
+  color: rgba(0, 0, 0, 0.65);
+}
+
+.my-button-default:hover {
+  background-color: #fafafa;
+  border-color: #d9d9d9;
+  color: rgba(0, 0, 0, 0.65);
+}
+
+.my-button-default:active {
+  background-color: #e6e6e6;
+  border-color: #d9d9d9;
+  color: rgba(0, 0, 0, 0.65);
+}
+
+.my-button-ghost {
+  background-color: transparent;
+  border-color: #d9d9d9;
+  color: rgba(0, 0, 0, 0.65);
+}
+
+.my-button-ghost:hover {
+  background-color: #fff;
+  border-color: #40a9ff;
+  color: #40a9ff;
+}
+
+.my-button-ghost:active {
+  background-color: #fff;
+  border-color: #096dd9;
+  color: #096dd9;
+}
